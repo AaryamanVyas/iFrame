@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%; /* Adjust as needed */
+    max-width: 1200px; /* Optional: restrict the maximum width */
+    padding: 20px; /* Optional: add some padding for better aesthetics */
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 100%; /* Ensure logo is responsive */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center align the navigation items */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    text-align: center; /* Center align main content */
+}
+
+main article {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center; /* Center align footer text */
+    padding: 20px 0;
+}
